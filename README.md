@@ -1,16 +1,99 @@
-# React + Vite
+# Rüzhükhrie GHSS Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive institutional website redesign for **Rüzhükhrie Government Higher Secondary School (RGHSS)**, Kohima, Nagaland.
 
-Currently, two official plugins are available:
+Built with React, Vite, and Tailwind CSS, this project aims to provide a clean, professional, and mobile-friendly digital presence for one of Nagaland's oldest educational institutions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Modern fullscreen hero section
+* Responsive design across mobile, tablet, and desktop devices
+* Notices & Updates section
+* Heritage and institutional history showcase
+* Academics section
+* Achievements showcase
+* Interactive campus explorer
+* Admissions information
+* School motto section
+* Contact section with map integration
+* Smooth scrolling navigation
+* Accessibility improvements
+* Performance-focused design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+* React
+* Vite
+* Tailwind CSS
+* JavaScript (ES6+)
+
+---
+
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── layout/
+│   ├── sections/
+│   └── ui/
+├── assets/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Rahul-Roy27/Ruzhukhrie-ghss-website.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## Purpose
+
+This project was created as a modern website redesign concept for Rüzhükhrie Government Higher Secondary School, focusing on:
+
+* Institutional branding
+* Accessibility
+* Responsiveness
+* User experience
+* Professional presentation
+
+---
+
+## Status
+
+Frontend prototype completed and optimized for responsive viewing across modern devices.
+
+---
+
+### Motto
+
+**"Educate One and All"**
