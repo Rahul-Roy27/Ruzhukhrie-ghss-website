@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #1A1F2E;
+  background-color: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 108px; /* Accounts for h-9 sub-bar + h-18 main nav */
+  overflow-x: clip;
+}
+
+body {
+  overflow-x: clip;
+}
